@@ -1,0 +1,17 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #e4e3e3;
+}
+
+.card {
+    position: absolute;
+    height: 230px;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #14b1ab;
+    border-radius: 20px;
+    border-radius: 1px solid black;
+}
