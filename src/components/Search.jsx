@@ -37,7 +37,7 @@ function Search(props) {
     setLocation(data.location);
     setJoinedDate(data.created_at.substring(0, 10));
     if (data.bio == null) {
-      setBio("Oops! You need a bio :)");
+      setBio("Oops! You need a bio🙄");
     } else {
       setBio(data.bio);
     }
@@ -91,7 +91,10 @@ function Search(props) {
         />
       ) : (
         <h1 className="error-msg">
-          Oops! Create an account at &nbsp;<a href="github.com">here</a>
+          Oops!😐 Create an account at &nbsp;
+          <a style={{ textDecoration: "none" }} href="github.com">
+            here👉
+          </a>
         </h1>
       )}
     </div>
