@@ -4,6 +4,13 @@ body {
     padding: 0;
     margin: 0;
     background: #e4e3e3;
+    font-family: 'Poppins', sans-serif;
+    color: #251f44;
+}
+
+p {
+    position: absolute;
+    font-size: 12px;
 }
 
 .card {
@@ -21,18 +28,80 @@ body {
 }
 
 .line {
-    position: relative;
+    position: absolute;
     left: 34%;
     height: 100%;
     width: 1px;
-    /* background-color: black; */
     box-shadow: 0 0 2px 0 black;
+}
 
+.blog {
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
 
 .name {
-    font-family: 'Poppins', sans-serif;
+    display: inline-block;
     margin: 0;
     color: #1d1b38;
     text-transform: uppercase;
+}
+
+.repo {
+    left: 50px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.company {
+    left: 50px;
+    bottom: -4px;
+    left: 10px;
+}
+
+.avatar {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    left: 16px;
+    top: 20%;
+    box-sizing: border-box;
+    border: 2px solid #ffa931;
+}
+
+.place{
+    left: 36%;
+}
+
+.joined-date {
+    right: 10px;
+}
+
+.bio {
+    width: 60%;
+    left: 36%;
+    top: 35%;
+    font-size: 16px;
+}
+
+.fa-users, .fa-twitter {
+    color: #000;
+    font-size: 24px;
+}
+
+.fa-twitter {
+    font-size: 32px;
+}
+
+.followers {
+    left: 36%;
+    bottom: -10px;
+    font-size: 16px;
+}
+
+.twitter {
+    bottom: -10px;
+    right: 10px;
 }
