@@ -13,7 +13,7 @@ function Search(props) {
   const [company, setCompany] = useState("");
   const [location, setLocation] = useState("");
   const [joinedDate, setJoinedDate] = useState(null);
-  const [bio, setBio] = useState("Oops! You need a bio :)");
+  const [bio, setBio] = useState("");
   const [followers, setFollowers] = useState(0);
   const [twitterLink, setTwitterLink] = useState("");
   const [blog, setBlog] = useState("");
@@ -36,7 +36,11 @@ function Search(props) {
     setCompany(data.company);
     setLocation(data.location);
     setJoinedDate(data.created_at.substring(0, 10));
-    setBio(data.bio);
+    if (data.bio == null) {
+      setBio("Oops! You need a bio :)");
+    } else {
+      setBio(data.bio);
+    }
     setFollowers(data.followers);
     setTwitterLink(`https://twitter.com/${data.twitter_username}`);
     setBlog(data.blog);
