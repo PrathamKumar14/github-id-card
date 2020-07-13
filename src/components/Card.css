@@ -5,7 +5,7 @@ body {
     margin: 0;
     background: #e4e3e3;
     font-family: 'Poppins', sans-serif;
-    color: #251f44;
+    color: #005451;
 }
 
 p {
@@ -22,7 +22,7 @@ p {
     transform: translate(-50%, -50%);
     background: #14b1ab;
     border-radius: 20px;
-    border: 1px solid #1d1b38;
+    box-shadow: 0 0 10px -2px black;
     text-align: center;
     overflow: hidden;
 }
@@ -30,9 +30,9 @@ p {
 .line {
     position: absolute;
     left: 34%;
-    height: 100%;
+    height: 66%;
     width: 1px;
-    box-shadow: 0 0 2px 0 black;
+    background-color: #333333;
 }
 
 .blog {
@@ -68,7 +68,7 @@ p {
     left: 16px;
     top: 20%;
     box-sizing: border-box;
-    border: 2px solid #ffa931;
+    border: 2px solid #00fff5;
 }
 
 .place{
@@ -84,6 +84,7 @@ p {
     left: 36%;
     top: 35%;
     font-size: 16px;
+    color: #141414;
 }
 
 .fa-users, .fa-twitter {
