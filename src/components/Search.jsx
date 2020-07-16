@@ -91,7 +91,7 @@ function Search(props) {
         />
       ) : (
         <h1 className="error-msg">
-          Oops!😐 Create an account at &nbsp;
+          Oops!😐 Create an account &nbsp;
           <a style={{ textDecoration: "none" }} href="https://github.com/">
             here👉
           </a>
